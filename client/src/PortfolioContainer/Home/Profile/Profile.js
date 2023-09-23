@@ -25,15 +25,15 @@ function Profile() {
                             <h1>
     
                                 <Typical steps={
-                                    ["Full Stack Developer 🔴",1000,
-                                "MERN Stack Developer ✍️ ",1000,
+                                    ["SDET Engineer 🌐 ",1000,
+                                    "Full Stack Mern Developer ✍️",1000,
                             "UI/UX Specialist 💻",1000,
-                        "Deveops Engineer 🌐",1000,]
+                        ]
                                 }/>
 
                             </h1>
                             <span className="portfolio-roll-tagline"> 
-                                Passionate to build Applications with Front-End & Back-End operations..
+                            Experienced SDET with a background in Full Stack development...
                             </span>
                         </span>
                     </div>
@@ -45,7 +45,7 @@ function Profile() {
                 {" "}
                 Hire Me{" "}
               </button>
-                        <a href= "Fijula_CV.pdf" download="Fijula_CV.pdf">
+                        <a href= "Fijula_Resume(SDET).pdf" download="Fijula__Resume(SDET).pdf">
                             <button className="btn highlighted-btn">My Resume</button>
                         </a>
                     </div>
