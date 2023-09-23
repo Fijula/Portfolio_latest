@@ -49,26 +49,28 @@ const Resume = (props) => {
     { label: "Programming Skills", logoSrc: "programming-skills.svg" },
     { label: "Projects", logoSrc: "projects.svg" },
     { label: "Achievements", logoSrc: "interests.svg" },
+    { label: "Courses and Certifications", logoSrc: "interests.svg" },
+
   ];
 
   //here we have
   const programmingSkillsDetails = [
+    { skill: "Cypress", ratingPercentage: 85 },
+    { skill: "K6", ratingPercentage: 40 },
+    { skill: "Postman", ratingPercentage: 85 },
     { skill: "JavaScript", ratingPercentage: 85 },
+    { skill: "Jmeter", ratingPercentage: 55 },
     { skill: "React JS", ratingPercentage: 85 },
     { skill: "GIT", ratingPercentage: 90 },
     { skill: "Express JS", ratingPercentage: 89 },
     { skill: "Node JS", ratingPercentage: 89 },
     { skill: "Mongo DB", ratingPercentage: 70 },
-    { skill: "HTML", ratingPercentage: 80 },
-    { skill: "CSS", ratingPercentage: 80 },
-    { skill: "BootStrap", ratingPercentage: 85 },
+    { skill: "HTML & CSS", ratingPercentage: 80 },
     { skill: "Material UI", ratingPercentage: 85 },
     { skill: "MYSQL", ratingPercentage: 85 },
     { skill: "Jenkins", ratingPercentage: 55 },
     { skill: "Docker", ratingPercentage: 55 },
-    { skill: "Kubernetes", ratingPercentage: 55 },
-    { skill: "AWS", ratingPercentage: 55 },
-    { skill: "Postman", ratingPercentage: 85 },
+    { skill: "Java", ratingPercentage: 55 },
     { skill: "Swagger", ratingPercentage: 75 },
     { skill: "Mocha and Chai", ratingPercentage: 55 },
   ];
@@ -111,6 +113,12 @@ const Resume = (props) => {
 
   const resumeDetails = [
     <div className="resume-screen-container" key="education">
+         <ResumeHeading
+        heading={"Masters in Computer Science"}
+        subHeading={"Woolf Univeristy "}
+        fromDate={"2022"}
+        toDate={"2024"}
+      />
         <ResumeHeading
         heading={"Post Graduate in Education"}
         subHeading={"IITT- International Institute of Teachers Training"}
@@ -141,14 +149,25 @@ const Resume = (props) => {
     /* WORK EXPERIENCE */
     <div className="resume-screen-container" key="work-experience">
       <div className="experience-container">
-        <ResumeHeading
-          heading={"Full Stack Developer"}
-          fromDate={"2021"}
+      <ResumeHeading
+          heading={"SDET Engineer"}
+          fromDate={"2022"}
           toDate={"Present"}
         />
         <div className="experience-description">
           <span className="resume-description-text">
-            Currently doing Freelancing in MERN stack web development
+            Full stack Automation (UI, API , Performance)
+          </span>
+        </div>
+        
+        <ResumeHeading
+          heading={"Full Stack Developer"}
+          fromDate={"2021"}
+          toDate={"2022"}
+        />
+        <div className="experience-description">
+          <span className="resume-description-text">
+            Freelancing in MERN stack web development
           </span>
         </div>
         
@@ -227,6 +246,40 @@ const Resume = (props) => {
         description=" Honour to present the school sports torch,Swimming Champion, Gold medal in athletics,throwball, batminton, table-tennis ,shortput,long-jump,chess and Participated in State Volleyball "
       />
     </div>,
+
+<div className="resume-screen-container" key="certificationd">
+<ResumeHeading
+  heading="Full Stack Mern - Xebia Academy"
+ />
+ <ResumeHeading
+  heading="Advanced Recat and Redux - Udemy"
+ />
+ <ResumeHeading
+  heading="Nodejs - Complete Guide - Udemy"
+ />
+ <ResumeHeading
+  heading="MongoDB -Complete Course - Udemy"
+ />
+ <ResumeHeading
+  heading="Advanced React - Scrimba"
+ />
+  <ResumeHeading
+  heading="Javacript in Depth - Scrimba"
+ />
+  <ResumeHeading
+  heading="Advanced React - Scrimba"
+ />
+  <ResumeHeading
+  heading="Git Complete Course - Udemy"
+ />
+   <ResumeHeading
+  heading="Cypress Automation - Udemy"
+ />
+    <ResumeHeading
+  heading="Cypress Automation - 10PearlsUniversity"
+ />
+
+</div>,
   ];
 
   const handleCarousal = (index) => {

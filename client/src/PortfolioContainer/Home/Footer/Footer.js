@@ -6,7 +6,7 @@ function Footer() {
     return (
         <div className='footer-container'>
          <div className ="footer-parent">
-         <img
+         <img aria-hidden
           src={image}
           alt="you have problem with the image"
         />

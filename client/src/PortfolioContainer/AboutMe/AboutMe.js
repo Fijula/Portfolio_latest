@@ -1,5 +1,5 @@
 // Code Smell, Refactoring, Naming Convention, Duplicate code, Comments, SOLID
-import React, { useEffect } from "react";
+import React from "react";
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
@@ -15,20 +15,28 @@ export default function AboutMe(props) {
 
   const SCREEN_CONSTSANTS = {
     description:
-      "Full stack developer with background knowledge of MERN stacks  along with  building applications with utmost efficiency. Strong BE  professional willing to be an asset for an organization.",
+      "Experienced Full Stack Developer specializing in QA Automation with more than 2.5 years of expertise. Skilled in Cypress for both frontend and backend testing ,including end-to-end testing. Proven track record in performance and manual testing. Seeking opportunities to optimize software development and testing processe",
     highlights: {
       bullets: [
-        "Full Stack web  development",
+        "Open Source Contribution -Cypress",
+        "Agile methodology",
+        "SDLC",
+        "Jira",
+        "Git",
+        "Bitbucket",
+        "Atlassian Confluence",
+        "Automation testing",
+        "Frontend automation - Cypress",
+        "API automation - Cypress, Playwright, Postman,Swagger ",
+        "Performance testing - K6, JMeter",
+        "Full Stack web development",
         "Interactive Front End as per the design",
-        "Node js and MongoDb at the  backEnd",
-        "React,Html,Css and Javascript As front End",
+        "Node js and MongoDb at the backEnd",
+        "React, Html, Css, and Javascript As front End",
         "Redux for State Management",
         "Building REST API",
         "Managing database",
-        "Devops Knowledge : Jenkins,Docker,Kubernetes and AWS",
-        "API : Postman,Swagger",
-        "Testing:Mocha and Chai,JEST"
-        
+        "DevOps Knowledge: Jenkins, Docker",
       ],
       heading: "Here are a Few Highlights:",
     },
